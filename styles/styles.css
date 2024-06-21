@@ -25,7 +25,7 @@ h1 {
     color: steelblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -34,7 +34,7 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 /* 
 body {
@@ -43,4 +43,28 @@ body {
 
 h1 {
     font-family: rock_saltregular, 'Bradley Hand', cursive;
+}
+
+main {
+    max-width: 1000px;
+}
+
+aside {
+    width: 30%;
+    margin: 20px;
+    border: 2px dotted green;
+    padding: 10px;
+    background-color: beige;
+    color: rgb(40, 17, 0);
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 1px solid black;
+    text-align: center;
 }
