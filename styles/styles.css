@@ -84,6 +84,7 @@ aside {
 aside h2 {
     position: absolute;
     top: 2rem;
+    left: 10rem;
 }
 
 aside img {
