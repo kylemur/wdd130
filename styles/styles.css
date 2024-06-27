@@ -72,7 +72,7 @@ main {
 
 aside {
     width: 30%;
-    text-align: center;
+    /* text-align: center; */
     /* margin: 20px;
     border: 2px dotted green;
     padding: 10px;
@@ -84,7 +84,7 @@ aside {
 aside h2 {
     position: absolute;
     top: 2rem;
-    left: 10rem;
+    left: 2rem;
 }
 
 aside img {
