@@ -55,21 +55,21 @@ section img {
 
 div.hero {
     position: relative;
-    padding: 0;
+    padding-bottom: 20%;
 }
 
 h1 {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 10%;
+    top: 5%;
     z-index: 1;
 }
 article {
     position: absolute;
-    width: 80%;
-    left: 10%;
-    top: 60%;
+    width: 90%;
+    left: 5%;
+    top: 55%;
     z-index: 1;
     background-color: #33648ad9;
 }
