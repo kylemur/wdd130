@@ -15,6 +15,12 @@
     --nav-hover-background: #F6AE2D;
 }
 
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 1%;
+}
+
 h1,
 h2,
 h3,
@@ -23,22 +29,16 @@ h5,
 h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    padding: 1%;
 }
 
 p {
-    padding: 25px;
+    padding: 2%;
     color: var(--secondary-color);
 }
 
 img {
     max-width: 100%;
-    /* padding: 25px; */
-}
-
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
 }
 
 footer a {
@@ -55,6 +55,7 @@ section img {
 
 div.hero {
     position: relative;
+    padding: 0;
 }
 
 h1 {
@@ -79,8 +80,8 @@ article {
 
 article img {
     display: block;
-    width: 30%;
-    padding: 25px;
+    width: 35%;
+    padding: 2%;
     height: auto;
     float: right;
 }
