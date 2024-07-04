@@ -46,7 +46,7 @@ footer a {
 }
 
 section img {
-    max-width: 40rem;
+    max-width: 100%;
     height: auto;
 }
 
@@ -68,7 +68,7 @@ article {
     position: absolute;
     width: 80%;
     left: 10%;
-    bottom: 10%;
+    top: 60%;
     z-index: 1;
     background-color: #33648ad9;
 }
