@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form - User Poll</title>
+    <meta name="description" content="poll form">
+    <meta name="author" content="Kyle Murdock">
+</head>
+<body>
+<header>
+    <h1>WDD 130 | Kyle Murdock | HTML Form - User Poll</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname">
+            <label>Email: <input type="email" name="useremail"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+            <label for="browser">What is your favorite internet browser?</label>
+            <select id="browser" name="browser">
+                <option value="chrome">Chrome</option>
+                <option value="safari">Safari</option>
+                <option value="edge">Edge</option>
+                <option value="duckduckgo">DuckDuckGo</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet">
+            <label for="feedback">List the places you have lived:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Rexburg Idaho, Cobán Guatemala, Merida Mexico"></textarea>
+        </fieldset>
+        <button type="submit">Submit Poll</button>
+    </form>
+</main>
+<footer>
+    <p>&copy;2024 | HTML Form - User Poll Activity | Kyle Murdock</p>
+</footer>
+</body>
+</html>
