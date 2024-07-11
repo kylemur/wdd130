@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Kablammo&family=Lugrasimo&family=MedievalSharp&family=Sofadi+One&family=Titillium+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    font-family: 'Lugrasimo', serif;
+    font-size: medium;
+    color: darkred;
+    background-color: rgba(255, 255, 0, 0.17);
+    justify-items: center;
+}
+
+header {
+    font-family: 'Fredericka the Great', sans-serif;
+}
+
+h1 {
+    padding-top: 1em;
+    border-bottom: double;
+}
+
+form {
+    width: 40em;
+    margin: 1em;
+    padding: 1em;
+    border: solid 3pt white;
+    border-radius: 12pt;
+    background-color: rgba(255, 255, 0, 0.17);
+    display: grid;
+    /* justify-items: center; */
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5em;
+    margin: 0.5em;
+    padding: 5pt;
+    color: black;
+    /* justify-items: center; */
+}
+
+legend {
+    color: darkred;
+}
+
+label {
+    text-align: right;
+    padding-right: 1em;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    position: relative;
+    left: 1em;
+    padding: 0.5em;
+    width: 10em;
+    color: white;
+    background-color: darkred;
+    font-weight: bolder;
+    font-family: "Lugrasimo", sans-serif;
+}
+
+button:hover {
+    color: darkred;
+    background-color: white;
+}
+
+footer {
+    text-shadow: 2px 2px 5px red;
+    /* padding: 0.5em;
+    background-color: rgba(250, 225, 249, 0.503); */
+}
