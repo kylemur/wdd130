@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <meta name="description" content="Quiz about HTML and CSS">
+    <meta name="author" content="Kyle Murdock">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <main>
+        <h1>HTML and CSS Quiz</h1>
+        <form>
+            <fieldset>
+                <!-- <div> -->
+                    <label for="end"><a>1. </a>Write the tag that goes at the very end of an HTML document.</label>
+                    <input type="text" id="end" name="end">
+                <!-- </div> -->
+                <label for="body"><a>2. </a>What are the three basic parts inside the body of an HTML document?</label>
+                <textarea id="body" name="body" rows="4"></textarea>
+                <div>
+                    <label for="head"><a>3. </a>What is commonly in the head of an HTML document?</label>
+                    <select id="head" name="head">
+                        <option value="" selected disabled>Choose one</option>
+                        <option value="header">header</option>
+                        <option value="heading">heading</option>
+                        <option value="h1">h1</option>
+                        <option value="all">all of the above</option>
+                        <option value="none">none of the above</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="pixels"><a>4. </a>____ pixels = 1 inch (usually)</label>
+                    <input type="number" id="pixels" name="pixels">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024 | HTML and CSS Quiz | Kyle Murdock</p>
+    </footer>
+</body>
+</html>

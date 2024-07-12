@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Kablammo&family=Lugrasimo&family=MedievalSharp&family=Sofadi+One&family=Titillium+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', serif;
+    font-size: medium;
+    color: darkgreen;
+    margin: 0.5em;
+    width: 36em;
+}
+
+h1 {
+    font-family: 'Sofadi One', sans-serif;
+    border-bottom: double;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+form {
+    border-radius: 5pt;
+    background-color: rgba(144, 238, 144, 0.2);
+    display: grid;
+    justify-items: center;
+}
+
+a {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+fieldset {
+    display: grid;
+    border: none;
+    border-bottom: 1pt solid grey;
+    grid-gap: 0.5em;
+    margin: 0.5em;
+    padding-bottom: 1em;
+    color: black;
+}
+
+button {
+    padding: 0.75em;
+    margin-bottom: 0.5em;
+    justify-self: center;
+    border: 1px dotted rgba(128, 128, 128, 0.5);
+    border-radius: 0.5em;
+    color: white;
+    background-color: darkgreen;
+    font-weight: bolder;
+}
+
+button:hover {
+    color: darkgreen;
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+input, textarea, select {
+    padding: 0.2em;
+    margin-bottom: 1em;
+}
