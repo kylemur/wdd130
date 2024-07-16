@@ -3,16 +3,16 @@
 :root {
     --primary-color: #55DDE0;
     --secondary-color: #33658A;
-    --accent1-color: black;
-    --accent2-color: white;
+    --accent1-color: #F26419;
+    --accent2-color: #F6AE2D;
 
     --heading-font: 'Fredericka the Great', serif;
     --paragraph-font: 'Titillium Web', serif;
 
     --nav-background-color: #55DDE0;
-    --nav-link-color: black;
-    --nav-hover-link-color: #33658A;
-    --nav-hover-background: white;
+    --nav-link-color: #33658A;
+    --nav-hover-link-color: #F26419;
+    --nav-hover-background: #F6AE2D;
 }
 
 body {
@@ -20,8 +20,8 @@ body {
     /* grid-template-columns: auto; */
     font-family: var(--paragraph-font);
     max-width: 960px;
-    /* padding: 1%; */
-    /* margin: 1%; */
+    padding: 1%;
+    margin: 1%;
     color: var(--accent2-color);
     /* justify-content: center; */
 }
@@ -42,7 +42,6 @@ h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     padding: 1%;
-    background-color: var(--secondary-color);
 }
 
 p {
@@ -79,6 +78,7 @@ header {
     padding: 1em;
     justify-items: center;
     align-items: center;
+    /* color: black; */
     background-color: var(--secondary-color);
 
 }
@@ -117,6 +117,7 @@ section img {
 .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: #33648ad7; */
     background-color: var(--secondary-color);
     text-align: center;
     align-items: center;
@@ -134,15 +135,11 @@ div.hero {
     position: relative;
 }
 
-.hero h1 {
-    width: 98%;
-}
-
-.about {
+h1 {
     position: absolute;
     width: 100%;
     text-align: center;
-    /* text-shadow: 2px 2px 5px var(--secondary-color); */
+    text-shadow: 2px 2px 5px var(--secondary-color);
     top: 0;
     z-index: 1;
 }
@@ -150,7 +147,7 @@ article {
     position: absolute;
     width: 90%;
     left: 5%;
-    top: 55%;
+    top: 45%;
     z-index: 1;
     background-color: #33648ad9;
 }
@@ -167,6 +164,7 @@ article img {
 .adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    /* background-color: #33648ad7; */
     background-color: var(--secondary-color);
     text-align: center;
     align-items: center;
@@ -179,60 +177,4 @@ article img {
 
 .adventure figure {
     width: 80%;
-}
-
-form {
-    display: grid;
-    justify-items: center;
-}
-
-fieldset {
-    background-color: var(--secondary-color);
-    border: none;
-}
-
-fieldset div {
-    padding: 1em;
-    width: 100%;
-}
-
-textarea {
-    width: 35em;
-}
-
-button {
-    margin: 0.5em;
-    padding: 0.5em;
-    border: 1px solid var(--secondary-color);
-    border-radius: 0.5em;
-    background-color: var(--primary-color);
-}
-
-button:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background);
-}
-
-.contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: #33658A;
-}
-
-.employees {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    color: var(--secondary-color);
-    text-align: center;
-    border-top: 2px solid var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
-}
-
-.employees h2{
-    grid-column-start: 1;
-    grid-column-end: 5;
-}
-
-.wireframe {
-    background-color: var(--accent2-color);
 }
