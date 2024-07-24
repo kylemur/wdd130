@@ -236,3 +236,151 @@ button:hover {
 .wireframe {
     background-color: var(--accent2-color);
 }
+
+
+
+/* trips */
+
+.trips {
+    color: var(--secondary-color);
+}
+
+.trips h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.trips div {
+    /* display: block; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+
+.trips a {
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    position: absolute;
+    width: 10em;
+    font-size: 2rem;
+    z-index: top;
+    /* left: 25%; */
+    justify-self: center;
+    top: 40%;
+    border-radius: 20em;
+    border: 5px dotted var(--accent2-color);
+}
+
+.trips a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background);
+    border-color: var(--primary-color);
+}
+
+.trips img {
+    max-height: 20em;
+    justify-self: center;
+    border: 15px dashed var(--primary-color);
+}
+
+
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 2em;
+}
+
+caption {
+caption-side: top;
+padding: 10px;
+font-weight: bold;
+}
+
+thead {
+background-color: rgb(228 240 245);
+}
+
+th,
+td {
+border: 1px solid rgb(160 160 160);
+padding: 8px 10px;
+}
+
+td:last-of-type {
+text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+background-color: rgb(237 238 242);
+}
+  
+
+
+.home {
+    color: var(--secondary-color);
+}
+
+.home h2 {
+    background: none;
+    color: var(--secondary-color);
+}
+
+.home h1 {
+    position: absolute;
+    background-color: #33648a88;
+    border-radius: 10px;
+    color: var(--accent2-color);
+    text-shadow: 1px 1px 1px var(--accent1-color);
+    left: 10%;
+    top: 40%;
+    font-size: 3em;
+}
+
+.background img {
+    width: 100%;
+    height: auto;
+}
+
+.home a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #55dee0bf;
+    color: var(--accent1-color);
+    text-shadow: 2px 2px 3px var(--accent2-color);
+    position: absolute;
+    width: 10em;
+    font-size: 2rem;
+    z-index: top;
+    left: 35%;
+    justify-self: center;
+    top: 60%;
+    border-radius: 20em;
+    border: 5px dotted var(--accent2-color);
+}
+
+.home a:hover {
+    color: var(--nav-hover-link-color);
+    text-shadow: 1px 1px 1px var(--accent1-color);
+    background-color: rgba(255, 255, 255, 0.841);
+    border-color: var(--primary-color);
+}
+
+.homeinfo {
+    /* display: block; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.home form {
+    color: var(--accent2-color);
+    margin-bottom: 2em;
+}
