@@ -266,7 +266,7 @@ button:hover {
     position: absolute;
     width: 10em;
     font-size: 2rem;
-    z-index: top;
+    z-index: 3;
     /* left: 25%; */
     justify-self: center;
     top: 40%;
@@ -358,7 +358,7 @@ background-color: rgb(237 238 242);
     position: absolute;
     width: 10em;
     font-size: 2rem;
-    z-index: top;
+    z-index: 3;
     left: 35%;
     justify-self: center;
     top: 60%;
